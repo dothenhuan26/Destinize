@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="./assets/CSS/bootstrap/bootstrap.min.css">
+    <script src="./assets/CSS/bootstrap/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/CSS/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/CSS/OwlCarousel/owl.theme.default.min.css">
+    <script src="./assets/CSS/OwlCarousel/jquery.min.js"></script>
+    <script src="./assets/CSS/OwlCarousel/owl.carousel.js"></script>
+    <script src="./assets/CSS/OwlCarousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
+</head>
+
+<body>
+    <div class="container wide">
+        <header class="row position-relative">
+            <nav class="navbar navbar-expand-lg col">
+                <div class="container-fluid flex-lg-row flex-column-reverse">
+                    <div class="d-flex w-100 align-items-center">
+                        <a class="navbar-brand fs-18px fw-bold main-logo" href="#">
+                            <img src="assets/img/header-logo.png" alt="Logo" width="28" height="28"
+                                class="d-inline-block align-text-top">
+                            Destinize
+                        </a>
+
+                        <form class="container-fluid me-md-4">
+                            <div class="input-group search-btn overflow-hidden">
+                                <span class="input-group-text ps-4 border-0" id="basic-addon1"><i
+                                        class="bi bi-search"></i></span>
+                                <input type="text" class="form-control fw-normal border-0"
+                                    placeholder="Cari apapun disini..." aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+
+                        <div class="d-lg-none">
+                            <div class="d-flex justify-content-end">
+                                <div
+                                    class="header-icon primary-color  rounded-circle d-inline-flex bg-primary-color me-2">
+                                    <i class="bi bi-basket m-auto text-white"></i>
+                                </div>
+                                <div class="header-icon primary-color  rounded-circle d-inline-flex">
+                                    <i class="bi bi-person m-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-md-flex align-items-center">
+                        <div class="dropdown languages me-4">
+                            <a class="btn dropdown-toggle border-0 fw-normal" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-globe"></i>
+                                Bahasa Indonesia
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown local d-flex flex-row align-items-center">
+                            <div class="header-icon primary-color  me-3 rounded-circle d-flex">
+                                <i class="bi bi-geo-alt m-auto"></i>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <p class="m-0">Lokasi</p>
+                                <a class="btn primary-color dropdown-toggle border-0 fs-6 fw-bold p-0" href="#"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Indonesia, Yogyakarta
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item primary-color fw-normal" href="#">None</a></li>
+                                    <li><a class="dropdown-item primary-color fw-normal" href="#">None</a></li>
+                                    <li><a class="dropdown-item primary-color fw-normal" href="#">None</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <hr class="dash d-none d-lg-block my-3">
+
+
+            <nav class="navbar navbar-expand-lg w-100">
+                <div class="d-flex w-100 justify-content-end">
+                    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav flex-grow-1 align-items-center">
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Gunung
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Pantai
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Kuliner
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Outbond
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sejarah
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Edukasi
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Romantis
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item me-xl-3">
+                                    <div class="dropdown languages">
+                                        <a class="btn dropdown-toggle border-0 fw-normal w-100" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Alam
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                            <li><a class="dropdown-item fw-normal" href="#">None</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="col-2 d-none d-lg-block container-fluid">
+                                <div class="d-flex justify-content-end">
+                                    <div
+                                        class="header-icon primary-color  rounded-circle d-inline-flex bg-primary-color me-2">
+                                        <i class="bi bi-basket m-auto text-white"></i>
+                                    </div>
+                                    <div class="header-icon primary-color  rounded-circle d-inline-flex">
+                                        <i class="bi bi-person m-auto"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <section class="banner">
+                <div class="row flex-wrap-reverse flex-lg-nowrap">
+                    <div class="col-12 col-lg-6">
+                        <div class="card border-0 banner-l">
+                            <div class="card-body p-0">
+                                <h6 class="card-subtitle fs-14px badge rounded-pill fw-bold mb-3 py-2 px-3">✈ • Explore
+                                    the
+                                    wonderful indonesia!</h6>
+                                <h1 class="card-title fs-4p5r fw-bolder">Liburan & nikmati
+                                    <span>tempat baru</span> di
+                                    indonesia ️🏝
+                                </h1>
+                                <p class="card-text fw-medium fs-6">Destinize membuat kamu selalu update terkait tempat
+                                    liburan
+                                    baru di Indonesia dengan mengikuti perkembangan para
+                                    influencer di sosial media ✨</p>
+
+                                <div class="d-flex align-items-center">
+                                    <a href="#"
+                                        class="btn me-4 card-link p-md-3 fw-bold text-decoration-none text-white fs-6">Mulai
+                                        sekarang →</a>
+
+                                    <a href="#"
+                                        class="d-flex align-items-center fs-17px card-link text-decoration-none fw-bold btn-watch">
+                                        <i class="bi bi-play-circle me-3 fs-50px"></i>
+                                        Putar Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="banner-r">
+                            <img src="./assets/img/banner-img.png" class="w-100 h-100" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section class="partner mt-5">
+                <div class="owl-carousel owl-theme partner-list">
+                    <div class="item">
+                        <img src="./assets/img/slider/slider1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/slider/slider2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/slider/slider3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/slider/slider4.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/img/slider/slider5.png" alt="">
+                    </div>
+                </div>
+
+                <script>
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        items: 5,
+                        loop: true,
+                        margin: 10,
+                        autoplay: true,
+                        autoplayTimeout: 1000,
+                        autoplayHoverPause: true
+                    });
+                    $('.play').on('click', function () {
+                        owl.trigger('play.owl.autoplay', [1000])
+                    })
+                    $('.stop').on('click', function () {
+                        owl.trigger('stop.owl.autoplay')
+                    })
+                </script>
+
+            </section>
+
+
+            <section class="favorit content-general mt-9r">
+                <div class="card border-0">
+                    <div
+                        class="card-body d-flex justify-content-between align-items-center p-0 flex-column flex-md-row">
+                        <div>
+                            <h6 class="card-subtitle fw-bolder">DESTINASI FAVORIT</h6>
+                            <h5 class="card-title fw-bolder">✈ • Temukan Destinasi Favoritmu </h5>
+                        </div>
+                        <a href="#" class="card-link text-decoration-none fw-semibold">Lihat semua →</a>
+                    </div>
+                </div>
+
+                <div class="favorit-items mt-5">
+                    <div class="row">
+                        <div class="col-12 col-md-3 position-relative">
+                            <div class="f-item w-100 h-100 overflow-hidden">
+                                <img class="object-fit-cover w-100 h-100" src="./assets/img/favorit/item1.png" alt="">
+                                <div class="img-text fs-15px px-4 py-3 position-absolute bottom-0">
+                                    <h5 class="fs-17px fw-semibold m-0">Raja Ampat</h5>
+                                    <p class="fw-medium m-0">Bali</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 position-relative">
+                            <div class="f-item w-100 h-100 overflow-hidden">
+                                <img class="object-fit-cover w-100 h-100" src="./assets/img/favorit/item2.jpg" alt="">
+                                <div class="img-text px-4 py-3 position-absolute bottom-0">
+                                    <h5 class="fw-semibold m-0">Labuan Bajo</h5>
+                                    <p class="fw-medium m-0">NTT</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 position-relative">
+                            <div class="f-item w-100 h-100 overflow-hidden">
+                                <img class="object-fit-cover w-100 h-100" src="./assets/img/favorit/item3.jpg" alt="">
+                                <div class="img-text px-4 py-3 position-absolute bottom-0">
+                                    <h5 class="fw-semibold m-0">Kawah Ijen</h5>
+                                    <p class="fw-medium m-0">Jawa Timur</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 position-relative">
+                            <div class="f-item w-100 h-100 overflow-hidden">
+                                <img class="object-fit-cover w-100 h-100" src="./assets/img/favorit/item4.jpg" alt="">
+                                <div class="img-text px-4 py-3 position-absolute bottom-0">
+                                    <h5 class="fw-semibold m-0">Bromo</h5>
+                                    <p class="fw-medium m-0">Jawa Timur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+
+
+
+            </section>
+
+            <section class="reservasi content-general mt-9r">
+                <div class="row flex">
+                    <div class="col-12 col-lg-5">
+                        <div class="card border-0 reservasi-l">
+                            <div class="card-body d-flex justify-content-between align-items-center p-0 mb-4">
+                                <div>
+                                    <h6 class="card-subtitle fw-bolder">RESERVASI TEMPAT</h6>
+                                    <h5 class="card-title fs-50px fw-bolder">Gak mau ngantri? reservasi aja! 🤙🏻</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reservasi-icon d-flex align-items-start mb-5">
+                            <div class="icon p-3 me-4"><i>🔎</i></div>
+
+                            <div class="text-icon">
+                                <h5 class="fw-bold fs-18px mb-1 fs-18px">Cari tempat yang kamu mau</h5>
+                                <p class="fw-normal m-0 fs-6">Temukan destinasi selanjutnya yang akan kamu kunjungi
+                                    dengan Destinize</p>
+                            </div>
+                        </div>
+
+                        <div class="reservasi-icon d-flex align-items-start mb-5">
+                            <div class="icon p-3 me-4"><i>✏</i></div>
+
+                            <div class="text-icon">
+                                <h5 class="fw-bold fs-18px mb-1 fs-18px">Isi data dan konfirmasi pembayaran</h5>
+                                <p class="fw-normal m-0 fs-6">Tulis dan lengkapi data kamu untuk keperluan data booking
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="reservasi-icon d-flex align-items-start mb-5">
+                            <div class="icon p-3 me-4"><i>😍</i></div>
+
+                            <div class="text-icon">
+                                <h5 class="fw-bold fs-18px mb-1 fs-18px">Tinggal masuk dan enjoy!</h5>
+                                <p class="fw-normal m-0 fs-6">Kamu bisa langsung masuk dan enjoy liburan kamu tanpa
+                                    hambatan</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-6 col-lg-4 m-auto position-relative">
+
+                        <div class="bg-cir-bl">
+                        </div>
+
+                        <div class="reservasi-r p-4 position-absolute top-0">
+                            <div class="card border-0">
+                                <div class="reservasi-r-img">
+                                    <img src="./assets/img/reservasi/reservasi.jpg" class="w-100 h-100" alt="">
+                                </div>
+                                <div class="card-body p-0 pt-3 position-relative">
+                                    <h5 class="card-title fs-18px fw-bolder">Liburan ke Bali 🚗</h5>
+
+                                    <div class="d-flex mb-4">
+                                        <p class="card-text fs-6 m-0 fw-medium">14-29 Juni</p>
+
+                                        <i class="dash-xs bi bi-dash-lg mx-2"></i>
+
+
+                                        <p class="card-text fs-6 m-0 fw-medium">by Shandika</p>
+                                    </div>
+
+                                    <div class="d-flex mb-4 position-relative">
+                                        <div class="reservasi-r-icon rounded-circle d-inline-flex me-3">
+                                            <i class="bi bi-geo-alt m-auto"></i>
+                                        </div>
+                                        <div class="reservasi-r-icon rounded-circle d-inline-flex me-3">
+                                            <i class="bi bi-map m-auto"></i>
+                                        </div>
+                                        <div class="reservasi-r-icon rounded-circle d-inline-flex">
+                                            <i class="bi bi-send-fill m-auto"></i>
+                                        </div>
+
+                                        <div class="horizontal overflow-hidden position-absolute me-1">
+                                            <div class="card border-0">
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <img src="./assets/img/reservasi/avt.jpg"
+                                                            class="w-100 h-auto hori-img rounded-circle mt-3 ms-3"
+                                                            alt="...">
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="card-body p-0 m-3 ms-0">
+                                                            <p class="card-text fs-14px fw-medium mb-1">Ongoing</p>
+                                                            <h5 class="card-title fs-18px fw-bold mb-2">Jelajah
+                                                                Indonesia</h5>
+
+                                                            <div class="hori-progress">
+                                                                <p class="fw-medium fs-14px mb-2"><span>40%</span>
+                                                                    completed</p>
+                                                                <div class="progress" role="progressbar"
+                                                                    aria-label="Basic example" aria-valuenow="40"
+                                                                    aria-valuemin="0" aria-valuemax="100">
+                                                                    <div class="progress-bar" style="width: 40%"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex">
+                                            <p class="card-text fs-6 my-0 me-3 fw-medium">&#127970</p>
+                                            <p class="card-text fs-6 fw-medium my-0">12 Orang pergi bersama</p>
+                                        </div>
+
+                                        <p class="card-text fs-6 my-0 fw-medium"><i
+                                                class="bi bi-heart fs-4 primary-color"></i></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-1 col-lg-2"></div>
+
+                </div>
+            </section>
+
+            <section class="wisata content-general mt-9r">
+                <div class="card border-0 mb-4">
+                    <div class="card-body d-flex justify-content-center align-items-center text-center p-0">
+                        <div>
+                            <h6 class="card-subtitle fw-bolder">CARI TEMPAT WISATA</h6>
+                            <h5 class="card-title fs-3r fw-bolder mb-3">🗺 • Cari Tempat Wisata Didekatmu</h5>
+                            <p class="card-text fw-normal fs-18px m-auto">Fitur ini memungkinkan kamu untuk mencari
+                                tempat
+                                wisata
+                                atau tempat yang sedang populer di daerah kamu dengan begitu kamu akan selalu update dan
+                                gak kudet lagi 👍🏻</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wisata-map">
+                    <iframe class="w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4993500.389691753!2d112.08857105533946!3d-1.3718726766420437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c07d7496404b7%3A0xe37b4de71badf485!2sIndonesia!5e0!3m2!1svi!2s!4v1678174121785!5m2!1svi!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="row wisata-more mt-5">
+                    <div class="col-lg-4 col-12 reservasi-icon d-flex align-items-start mb-5">
+                        <div class="header-icon primary-color  rounded-circle d-inline-flex me-3">
+                            <i class="m-auto bi bi-geo-alt-fill"></i>
+                        </div>
+
+                        <div class="text-icon">
+                            <h5 class="fw-bolder fs-22px mb-1">Populer di dekatmu</h5>
+                            <p class="fw-medium m-0 fs-18px">Tempat pariwisata yang populer dan pasti dikenal semua
+                                orang
+                                didekatmu</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 reservasi-icon d-flex align-items-start mb-5">
+                        <div class="header-icon primary-color  rounded-circle d-inline-flex me-3">
+                            <i class="m-auto bi bi-heart-fill"></i>
+                        </div>
+
+                        <div class="text-icon">
+                            <h5 class="fw-bolder fs-22px mb-1">Favorit di dekatmu</h5>
+                            <p class="fw-medium m-0 fs-18px">Tempat favorit dan disukai semua orang orang di sekitar
+                                daerah
+                                kamu
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 reservasi-icon d-flex align-items-start mb-5">
+                        <div class="header-icon primary-color  rounded-circle d-inline-flex me-3">
+                            <i class="m-auto bi bi-people-fill"></i>
+                        </div>
+
+                        <div class="text-icon">
+                            <h5 class="fw-bolder fs-22px mb-1">Ramai di didekatmu</h5>
+                            <p class="fw-medium m-0 fs-18px">Spot yang paling ramai dikunjungi para warga sekaligus para
+                                wisatawan</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+
+
+            <section class="mengenal content-general mt-9r">
+                <div class="card border-0 mb-5">
+                    <div
+                        class="card-body d-flex justify-content-between align-items-center p-0 flex-column flex-md-row">
+                        <div>
+                            <h6 class="card-subtitle fw-bolder">MENGENAL DESTINIZE</h6>
+                            <h5 class="card-title fw-bolder">🖼• Galeri Pariwisata & Blog Travel</h5>
+                        </div>
+                        <a href="#" class="card-link fs-17px text-decoration-none fw-semibold">Lihat semua →</a>
+                    </div>
+                </div>
+
+
+                <div class="row mb-4">
+                    <div class="col-lg-3 col-sm-6 col-12 mx-auto">
+                        <div class="h-100 card mengenal-card overflow-hidden border-0">
+                            <img src="./assets/img/mengenal/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body p-4">
+                                <h6 class="card-subtitle fs-14px fw-semibold mb-3">26 DESEMBER 2021</h6>
+                                <h5 class="card-title fs-6 fw-bold mb-3">Tips naik gunung Bromo
+                                    Biar gak capek cyin 😥😛</h5>
+                                <p class="card-text fs-14px fw-semibold mb-3">Jadi gini gann, anda tau bromo?
+                                    yaaa gunung kann!</p>
+                                <a href="#" class="text-decoration-none fs-14px card-link">Baca selengkapnya ..</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9 col-12">
+                        <div class="mengenal-video overflow-hidden h-100 mt-5 mt-lg-0">
+                            <video class="w-100 h-100" src="" type="" controls>
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mengenal-tips overflow-hidden">
+                    <div class="mengenal-overlay pt-5 ps-4">
+                        <h5 class="card-title fs-24px text-white fw-bolder mb-3">Tips meminum air kawah biar lidah
+                            melepuh 😁
+                        </h5>
+                        <p class="card-text text-white fs-6 fw-medium">Lidah melepuh? why nott, kawah bukan untuk
+                            dilihat kawan.. tapi untuk di minum.. rasakan
+                            kepanasan yang brutal 🔥</p>
+                        <div class="d-flex mengenal-tips-hot pb-4">
+                            <h6 class="card-text text-white fs-14px fw-semibold me-3">Google</h6>
+                            <h6 class="card-text text-white fs-14px fw-semibold me-3">Trending</h6>
+                            <h6 class="card-text text-white fs-14px fw-semibold">Baru</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="testimonial content-general mt-9r">
+                <div class="testimonial-head card border-0 mb-4">
+                    <div class="card-body d-flex justify-content-center align-items-center text-center p-0">
+                        <div>
+                            <h6 class="card-subtitle fw-bolder mb-3">TESTIMONIAL DESTINIZE</h6>
+                            <h5 class="card-title fs-56px fw-bolder mb-3">💬 • Apa Kata Mereka Tentang Kami</h5>
+                            <p class="card-text fw-normal fs-6 m-auto">Penasaran apa saja review dari pengguna yang
+                                memakai aplikasi dan website Destinize buat nentuin kemana liburan mereka selanjutnya?
+                                Yuk cek dibawah!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="mt-5">
+                    <div class="testimonial-member align-content-center owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card text-center">
+                                <img src="./assets/img/testimonial/member1.jpg"
+                                    class="card-img-top rounded-circle mx-auto" alt="...">
+                                <div class="card-body px-5 py-0">
+                                    <p class="card-text fs-6 fw-medium">Destinize membantu saya
+                                        Mencari spot tempat wisata baru
+                                        di Indonesia dengan Mudah</p>
+
+                                    <div class="rate-star d-flex justify-content-center my-3">
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star px-1 fs-5"></i>
+                                    </div>
+
+                                    <a href="#" class="card-link fs-14px text-decoration-none fw-semibold">Sandhika
+                                        Galih</a>
+                                    <h5 class="card-title fs-14px fw-semibold mt-3">Dosen di WPU</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card text-center">
+                                <img src="./assets/img/testimonial/member2.png"
+                                    class="card-img-top rounded-circle mx-auto" alt="...">
+                                <div class="card-body px-5 py-0">
+                                    <p class="card-text fs-6 fw-medium">Destinize membantu saya
+                                        Mencari spot tempat wisata baru
+                                        di Indonesia dengan Mudah</p>
+
+                                    <div class="rate-star d-flex justify-content-center my-3">
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star px-1 fs-5"></i>
+                                    </div>
+
+                                    <a href="#" class="card-link text-decoration-none fw-semibold">Sandhika Galih</a>
+                                    <h5 class="card-title fs-14px fw-semibold mt-3">Dosen di WPU</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card text-center">
+                                <img src="./assets/img/testimonial/member3.jpg"
+                                    class="card-img-top rounded-circle mx-auto" alt="...">
+                                <div class="card-body px-5 py-0">
+                                    <p class="card-text fs-6 fw-medium">Destinize membantu saya
+                                        Mencari spot tempat wisata baru
+                                        di Indonesia dengan Mudah</p>
+
+                                    <div class="rate-star d-flex justify-content-center my-3">
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star-fill px-1 fs-5"></i>
+                                        <i class="bi bi-star px-1 fs-5"></i>
+                                    </div>
+
+                                    <a href="#" class="card-link text-decoration-none fw-semibold">Sandhika Galih</a>
+                                    <h5 class="card-title fs-14px fw-semibold mt-3">Dosen di WPU</h5>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <script>
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        items: 3,
+                        margin: 52,
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 1000,
+                        autoplayHoverPause: true,
+                        nav: true,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            992: {
+                                items: 3
+                            },
+                        }
+                    });
+                    $('.play').on('click', function () {
+                        owl.trigger('play.owl.autoplay', [1000])
+                    })
+                    $('.stop').on('click', function () {
+                        owl.trigger('stop.owl.autoplay')
+                    })
+                </script>
+            </section>
+
+
+            <section class="asked content-general mt-9r">
+                <div class="card border-0 mb-5">
+                    <div
+                        class="card-body d-flex justify-content-between align-items-center p-0 flex-column flex-md-row">
+                        <div>
+                            <h6 class="card-subtitle fw-bolder">FREQUENTLY ASKED QUESTION</h6>
+                            <h5 class="card-title fw-bolder">🤔• Pertanyaan yang Sering Diajukan</h5>
+                        </div>
+                        <a href="#" class="card-link fs-17px text-decoration-none fw-semibold">Lihat semua →</a>
+                    </div>
+                </div>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold fs-6" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Kenapa ya pembayaranku gagal banh? 😁
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-medium fs-6">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, wh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button fw-bold fs-6" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Apakah rehan wangsaff adalah CEO dari Destinize? 😅😅😅
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-medium fs-6">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, wh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button fw-bold fs-6" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                Afa iyah bang? Gapeduli 👆🏻😅
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-medium fs-6">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, wh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button fw-bold fs-6" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Kenapa harus memilih Destinize?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-medium fs-6">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, wh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button fw-bold fs-6" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                Apa rekomendasi tempat buat orang yang jomblo? 😥
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-medium fs-6">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard
+                                    dummy text ever since the 1500s, wh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="tail mt-9r">
+                <div class="row">
+                    <div class="col-12 col-md-5 order-2 order-lg-1">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <h5 class="card-title fw-bolder fs-40px mb-2r">Masih bingung cari tempat yang cocok? 🤔
+                                </h5>
+                                <p class="card-text fs-18px fw-normal mb-2r">Tenang, kami mempunyai fitur rekomendasi
+                                    yang
+                                    membantu kamu mencari
+                                    tempat berlibur yang tepat dengan menjawab pertanyaan yang kami berikan.</p>
+                                <a href="#" class="card-link fs-20px fw-bold text-decoration-none">Mulai sekarang →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col"></div>
+
+                    <div class="col-12 col-md-6 tail-img order-lg-2 order-1">
+                        <img src="./assets/img/tail-content.png" class="w-100 h-100" alt="...">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="mb-9r"></div>
+
+    <footer class="footer container wide">
+        <div class="row">
+            <div class="col-12 col-lg-6 footer-l">
+                <div class="card border-0">
+                    <img src="./assets/img/header-logo.png" class="card-img-top mb-3" alt="...">
+                    <div class="card-body p-0">
+                        <h5 class="card-title fs-24px fw-bold mb-3">Destinize</h5>
+                        <p class="card-text fs-14px fw-normal">Destinize adalah website atau layanan aplikasi yang
+                            membantu kamu
+                            memilih atau merekomendasikan tempat yang dijuluki ‘hidden gems’ agar lebih dikenal dan
+                            ramai <span class="fw-bold fs-14px">Baca Selengkapnya</span></p>
+
+
+                        <p class="card-text fs-14px fw-normal"><i
+                                class="bi bi-telephone-outbound me-2"></i>0851-5616-2840</p>
+                        <p class="card-text fs-14px fw-normal"><i class="bi bi-envelope me-2"></i>syaokay@gmail.com</p>
+                        <p class="card-text fs-14px fw-normal"><i class="bi bi-geo-alt me-2"></i>Ciamis, Jawa Barat.
+                            Indonesia</p>
+                        <p class="card-text fs-14px fw-normal"><i class="bi bi-printer me-2"></i>+1-212-9876543</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 footer-r">
+                <div class="row mt-4 mt-lg-0">
+                    <div class="col-4">
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0 fs-18px fw-bold mb-4"><a class="text-decoration-none"
+                                    href="">Tentang</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Tentang Kami</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Blog</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Karir</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Pekerjaan</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Berita</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Galeri</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Afiliasi</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4">
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0 fs-18px fw-bold mb-4"><a class="text-decoration-none"
+                                    href="">Support</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Kontak Kami</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Online Chat</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Whatsapp</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Telegram</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Tiket</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Call Center</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Bantuan</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4">
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0 fs-18px fw-bold mb-4"><a class="text-decoration-none"
+                                    href="">FAQ</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Akun</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Organisir</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Order</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Pembayaran</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Pengembalian</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Copyright</a></li>
+                            <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                                    href="">Bahasa</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="row">
+                <div class="col-12 col-lg-6 cpright order-lg-1 order-2">
+                    <p class="card-text fs-14px fw-normal float-lg-start"><i class="bi bi-c-circle"></i> 2021-2022, All
+                        Rights
+                        Reserved</p>
+                </div>
+
+                <ul class="col-12 col-lg-6 list-group border-0 order-1 order-lg-2 d-flex flex-xl-row">
+                    <li class="d-none"></li>
+                    <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                            href="">Tentang Kami</a></li>
+                    <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                            href="">Kontak</a></li>
+                    <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                            href="">Privasi & policy</a></li>
+                    <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                            href="">Sitemap</a></li>
+                    <li class="list-group-item border-0 fw-normal fs-14px"><a class="text-decoration-none"
+                            href="">Panduan Pengunaan</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wide {
+    max-width: 1196px;
+}
+
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+:root {
+    --light-text-color: #9A9EA6;
+    --general-color: #14183E;
+    --dark-color: #18191F;
+    --almost-dark-color: #474A57;
+    --dark-gray-color: #969BAB;
+    --light-color: #F4F5F7;
+    --almost-light-color: #EEEFF4;
+    --light-gray-color: #D9DBE1;
+    --primary-color: #4475F2;
+    --primary-dark-color: #181E4B;
+    --almost-primary-color: #789DFC;
+    --primary-fade-color: #D9E3FC;
+    --violet-color: #4737FF;
+    --almost-violet-color: #BCB6FD;
+    --violet-fade-color: #E1DFF6;
+    --blue-color: #4F7DF3;
+    --almost-blue-color: #A6BBF2;
+    --blue-fade-color: #CFD9F5;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --bg-gray-color: #F0F1F2;
+    --res-gray-color: #84829A;
+    --res-dark-color: #080809;
+    --bg-hd-ic-color: #E3EBFD;
+    --bg-sub-til-color: #E5EDFF;
+    --card-text-color: #5E6282;
+    --fav-color:  #80918E;
+    --btn-wh-color: #686D77;
+    --wis-ic-color: #323232;
+    --wis-h-color: #18214D;
+    --wis-p-color: #3E4462;
+    --men-sub-color: #BDBDBD;
+    --men-til-color: #252B42;
+    --men-card-txt-color: #737373;
+    --men-link-color: #23A6F0;
+    --fav-h-color: #042521;
+    --res-bg-ic-color: #EFE0B4;
+    --res-r-ic-color: #f5f5f5;
+    --wis-card-txt-color: #151D21;
+    --wis-mo-ic-color: #EFF2F6;
+    --rate-star-color: #E77C40;
+    --tail-txt-color: #F1F2F6;
+    --tail-bg-color: #4372EB;
+}
+
+
+/* distance */
+.mt-9r {
+    margin-top: 9rem !important;
+}
+
+.mb-9r {
+    margin-bottom: 9rem !important;
+}
+
+.mb-2r {
+    margin-bottom: 2rem !important;
+}
+
+.me-40 {
+    margin-right: 2.5rem !important;
+}
+
+/* color */
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+
+/* font-size */
+.fs-18px {
+ font-size: 1.125rem !important;
+}
+
+.fs-14px {
+    font-size: 0.875rem !important;
+}
+
+.fs-15px {
+    font-size: 0.9375rem !important;
+}
+
+.fs-17px {
+    font-size: 1.0625rem !important;
+}
+
+.fs-20px {
+    font-size: 1.25rem !important;
+}
+
+.fs-22px {
+    font-size: 1.375rem !important;
+}
+
+.fs-24px {
+    font-size: 1.5rem !important;
+}
+
+.fs-50px {
+    font-size: 3.125rem !important;
+}
+
+.fs-56px {
+    font-size: 3.5rem !important;
+}
+
+.fs-36px {
+    font-size: 2.25rem !important;
+}
+
+.fs-40px {
+    font-size: 2.5rem !important;
+}
+
+.fs-3r {
+    font-size: 3rem !important;
+}
+
+.fs-4p5r {
+    font-size: 4.5rem !important;
+}
+
+/* cmm */
+body {
+
+}
